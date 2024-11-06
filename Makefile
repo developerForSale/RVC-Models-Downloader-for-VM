@@ -1,3 +1,4 @@
+SHELL=/bin/bash
 PROJECT_NAME := rvcmd
 BUILD_PATH := build
 RUN_CMD := -h
