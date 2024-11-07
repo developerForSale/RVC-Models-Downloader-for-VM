@@ -79,6 +79,8 @@ func init() {
 		logrus.Warnln("VT100设置失败, 将以无色模式输出")
 	}
 
+	logrus.SetOutput(os.Stdout)
+
 	err = setConsoleTitle("RVC Models Downloader")
 	if err != nil {
 		panic(err)
